@@ -26,9 +26,9 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 
-export default function page() {
+export function MainPage() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    (<div className="flex flex-col min-h-[100dvh]">
       <header
         className="bg-gray-900 text-white px-4 lg:px-6 h-14 flex items-center justify-between">
         <div className="flex items-center">
@@ -231,7 +231,7 @@ export default function page() {
           </div>
         </div>
       </footer>
-    </div>
+    </div>)
   );
 }
 

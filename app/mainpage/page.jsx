@@ -50,13 +50,13 @@ export default function page() {
                 className="w-48 mt-2 bg-white dark:bg-gray-950 rounded-md shadow-lg"
                 side="bottom">
                 <DropdownMenuItem>
-                  <Link href="#">Category 1</Link>
+                  <Link href="http://localhost:3000/hello">음식</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#">Category 2</Link>
+                  <Link href="#">의복</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#">Category 3</Link>
+                  <Link href="#">음악</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
